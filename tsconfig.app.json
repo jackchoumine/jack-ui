@@ -1,9 +1,16 @@
 {
   "extends": "@vue/tsconfig/tsconfig.web.json",
-  "include": ["env.d.ts", "examples/**/*", "examples/**/*.vue", "components"],
+  "include": [
+    "env.d.ts",
+    "examples/**/*",
+    "examples/**/*.vue",
+    "components",
+    "JSplitPane-copy.vue.ts"
+  ],
   "exclude": ["examples/**/__tests__/*"],
   "compilerOptions": {
     "composite": true,
+    "allowJs": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["examples/*"],
