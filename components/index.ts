@@ -2,7 +2,7 @@
  * @Author      : ZhouQiJun
  * @Date        : 2023-04-22 21:57:38
  * @LastEditors : ZhouQiJun
- * @LastEditTime: 2023-04-23 00:10:27
+ * @LastEditTime: 2023-04-23 00:27:44
  * @Description : 导出所有组件
  */
 import type { App } from 'vue'
@@ -22,12 +22,17 @@ function install(app: App) {
 }
 
 /**
- * 从这里导出所有组件
+ * 按需引入
  * import { JToggle } from "jack-ui"
  * app.use(JToggle)
  */
 export { JToggle, JSplitPane }
 
+/**
+ * 全局引入
+ * import jackUi from "jack-ui"
+ * app.use(jackUi)
+ */
 export default {
   install
 }
