@@ -2,13 +2,11 @@
  * @Author      : ZhouQiJun
  * @Date        : 2023-04-22 22:42:51
  * @LastEditors : ZhouQiJun
- * @LastEditTime: 2023-04-23 00:13:48
+ * @LastEditTime: 2023-04-23 04:00:37
  * @Description : 
 -->
 <script lang="ts" setup>
 import { ref } from 'vue'
-// 本地导入
-import { JToggle } from '../../components'
 const open = ref(true)
 </script>
 

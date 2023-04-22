@@ -2,12 +2,11 @@
  * @Author      : ZhouQiJun
  * @Date        : 2023-04-22 23:35:30
  * @LastEditors : ZhouQiJun
- * @LastEditTime: 2023-04-23 00:30:44
+ * @LastEditTime: 2023-04-23 04:00:31
  * @Description : JSplitPane Demos
 -->
 <script lang="ts" setup name="j-split-pane-demos">
 import { ref } from 'vue'
-import { JSplitPane, JToggle } from '../../components'
 const value = ref(0.3)
 const open = ref(true)
 </script>

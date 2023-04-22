@@ -2,7 +2,7 @@
  * @Author      : ZhouQiJun
  * @Date        : 2023-04-22 20:58:37
  * @LastEditors : ZhouQiJun
- * @LastEditTime: 2023-04-23 00:14:22
+ * @LastEditTime: 2023-04-23 03:59:56
  * @Description : 测试组件的入口
  */
 import { createApp } from 'vue'
@@ -19,6 +19,9 @@ import '../components/SplitPane/j-split-pane.scss'
 // import { JSplitPane } from '../components'
 // app.use(JSplitPane)
 // 全局引入
-import jackUi from '../components'
-app.use(jackUi)
+import jackUI from '../components'
+// import jackUi from '../es'
+app.use(jackUI)
+// import { JToggle } from '../es'
+// app.use(JToggle)
 app.mount('#app')
