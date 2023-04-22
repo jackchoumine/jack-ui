@@ -2,13 +2,12 @@
  * @Author      : ZhouQiJun
  * @Date        : 2023-04-22 21:44:51
  * @LastEditors : ZhouQiJun
- * @LastEditTime: 2023-04-23 02:10:04
+ * @LastEditTime: 2023-04-23 02:52:33
  * @Description : 
 -->
 <script setup>
 import { ref } from 'vue'
 // import JSplitPane from './JSplitPane.vue'
-// import './j-split-pane.scss'
 const value = ref(0.3)
 </script>
 
@@ -24,8 +23,6 @@ const value = ref(0.3)
         <template #right>
           <div>
             <p>right</p>
-            <JToggle v-model="open" />
-            <p>{{ open }}</p>
           </div>
         </template>
       </j-split-pane>
