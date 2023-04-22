@@ -78,3 +78,23 @@ module.export = {
   }
 }
 ```
+
+## 文档站点搭建
+
+### 使用 vuepress
+
+安装依赖
+
+```bash
+pnpm add -D vuepress@next
+```
+编辑命令
+
+```js
+"docs:dev": "vuepress dev docs",
+"docs:build": "vuepress build docs"
+```
+### 使用 histoire
+
+### 使用 vitepress
+
