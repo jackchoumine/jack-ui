@@ -1,7 +1,7 @@
 {
   "extends": "@vue/tsconfig/tsconfig.web.json",
-  "include": ["env.d.ts", "examples/**/*", "examples/**/*.vue", "components/**/*.vue"],
-  "exclude": ["examples/**/__tests__/*"],
+  "include": ["env.d.ts", "components/**/*.vue"],
+  "exclude": ["examples/**/__tests__/*", "dist", "node_modules"],
   "compilerOptions": {
     "composite": true,
     "allowJs": true,
