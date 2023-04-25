@@ -12,9 +12,9 @@ import jackUI from './components'
 
 export const setupVue3 = defineSetupVue3(({ app, story, variant }) => {
   console.log('histoire.setup.ts')
-  //   console.log('app', app)
+  // console.log('app', app)
   // app.use(JToggle)
   app.use(jackUI)
-  //   const pinia = createPinia()
-  //   app.use(pinia) // Add Pinia store
+  // const pinia = createPinia()
+  // app.use(pinia) // Add Pinia store
 })
